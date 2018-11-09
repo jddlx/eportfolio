@@ -1,0 +1,221 @@
+body{
+  width: 100%;
+  background-color: white;
+
+  font-family: 'Lato';
+}
+
+footer{
+  font-family: 'Lato';
+  text-align: center;
+  font-size: 10px;
+  opacity: 0.3;
+}
+
+#email{
+  color: black;
+  font-style: italic;
+}
+
+table{
+  margin-left: 13%;
+  padding: 0;
+}
+
+#logo{
+  border: 0px;
+}
+
+td{
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+table, td{
+  /*border-bottom: 1px solid #efdee1;*/
+  border-collapse: collapse;
+}
+
+#main-nav{
+  border-bottom: 1px solid #efdee1;
+}
+
+img{
+  width: 200px;
+}
+
+#main-nav{
+  text-align: right;
+  text-decoration: none;
+}
+
+#main-nav a{
+  font-size: 40px;
+  font-weight: bold;
+}
+td a, p{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+}
+
+
+
+
+td p, td div{
+  font-size: 10px;
+  color: black;
+  text-align: right;
+}
+#contact-logo{
+  text-align: right;
+  border-bottom: 1px solid #efdee1;
+}
+
+#contact-logo img{
+  width: 50px;
+  margin: 10px;
+}
+
+#contact-details{
+  border-bottom: 1px solid #efdee1;
+}
+
+/*animate nav bar link*/
+.nav-link {
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+}
+
+.nav-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #efdee1;
+    transition: width .3s;
+}
+
+.nav-link:hover::after {
+    width: 100%;
+    //transition: width .3s;
+}
+
+
+
+/*Janine Desiree*/
+#name h1{
+  font-family: 'Parisienne';
+  margin-left: 170px;
+  margin-top: 200px;
+  font-size: 80px;
+  color: black;
+  display: inline-block;
+
+
+}
+
+#name{
+  border: 0px;
+}
+
+#name p{
+
+  text-align: left;
+  margin-top: -70px;
+  margin-left: 210px;
+  line-height: 20px;
+  font-style: italic;
+}
+
+/*NOT ONPAGE*/
+
+.notonpage{
+  color: #efc2ca;
+  opacity: 0.3;
+
+}
+
+/************BLOG**************/
+
+.blog-image{
+  border: 0px;
+
+
+}
+
+.blog-image a{
+  margin-left: 120px;
+  display: inline;
+  text-align: center;
+
+
+}
+
+.blog-image img{
+    box-shadow: 10px 10px 5px grey;
+}
+
+.blog-image img:hover{
+    box-shadow: 10px 10px #efc2ca;
+}
+
+.blog-cell{
+
+
+}
+
+
+
+.blog-desc{
+
+  margin-left: 120px;
+}
+
+.blog-image p, .blog-image h3, .blog-image h4{
+  text-align: left;
+  text-transform: none;
+
+}
+
+/*VIDEO*/
+video{
+  width: 600px;
+  margin-left: 120px;
+  float: left;
+  display: inline;
+}
+
+.return-to-port a, .return-to-port{
+
+  font-size: 14px;
+  margin-left: 40px;
+}
+
+.return-to-port a{
+  text-decoration: underline;
+  color: #efdee1;
+}
+
+.return-to-port p{
+  text-decoration: underline;
+}
+
+.return-to-port a:hover{
+  text-decoration: underline;
+  background-color: grey;
+  color: white;
+}
+
+summary p {
+  text-align: left;
+  margin-left: 120px;
+  text-transform: none;
+
+
+}
+summary {
+  margin-top: 440px;
+
+}
